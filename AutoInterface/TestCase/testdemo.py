@@ -53,5 +53,5 @@ if __name__ == '__main__':
     suite.addTest(testdemo('test_aa'))
     surun=unittest.TextTestRunner()
     surun.run(suite)
-
+    print("py测试提交")
     # unittest.main()
