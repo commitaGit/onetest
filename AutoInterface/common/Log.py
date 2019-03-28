@@ -2,6 +2,14 @@ import logging
 import os
 '''AutoInterface 日志类'''
 
+
+def golog(func):
+    def funa(*args,**kw):
+        print("装修函数")
+        return func(*args,**kw)
+    return funa
+
+
 class log:
     #初始化日志
     def __init__(self,name):
@@ -18,8 +26,11 @@ class log:
 
 
     #获取实体
+    @golog
     def get_logger(self):
         return self.logger
+
+
 
 
 

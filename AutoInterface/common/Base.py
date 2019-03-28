@@ -5,7 +5,7 @@ import ReadConfig
 
 '''基本请求，登录登出'''
 log=Log.log("Base login")
-logger=log.get_logger()
+logger=log.get_logger
 class Base:
     def __init__(self):
         self.basehttp = BaseHttp.SendHttp()

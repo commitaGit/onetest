@@ -11,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Log.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Log.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/Log.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -38,22 +38,10 @@
       <file leaf-file-name="CommonSql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/CommonSql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="57">
+              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseHttp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/BaseHttp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,8 +50,8 @@
       <file leaf-file-name="Base.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/Base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="95">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -83,10 +71,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testdemo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="13" selection-start-line="21" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testdemo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/testdemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="950">
               <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
             </state>
           </provider>
@@ -96,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/common/testlog.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -122,15 +119,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/Log.py" />
-        <option value="$PROJECT_DIR$/common/CommonSql.py" />
         <option value="$PROJECT_DIR$/common/CommonData.py" />
         <option value="$PROJECT_DIR$/config.ini" />
-        <option value="$PROJECT_DIR$/common/Base.py" />
         <option value="$PROJECT_DIR$/ReadConfig.py" />
         <option value="$PROJECT_DIR$/common/testlog.txt" />
         <option value="$PROJECT_DIR$/common/BaseHttp.py" />
         <option value="$PROJECT_DIR$/TestCase/testdemo.py" />
+        <option value="$PROJECT_DIR$/common/CommonSql.py" />
+        <option value="$PROJECT_DIR$/common/Base.py" />
+        <option value="$PROJECT_DIR$/common/Log.py" />
       </list>
     </option>
   </component>
@@ -152,21 +149,6 @@
             <path>
               <item name="AutoInterface" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoInterface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoInterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoInterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoInterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="TestFile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoInterface" type="b2602c69:ProjectViewProjectNode" />
@@ -201,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in testdemo.py">
+  <component name="RunManager" selected="Python.Log">
     <configuration name="Base" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutoInterface" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,6 +238,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutoInterface" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/Log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="ReadConfig" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutoInterface" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,9 +293,11 @@
       <item itemvalue="Python.CommonData" />
       <item itemvalue="Python.Base" />
       <item itemvalue="Python.ReadConfig" />
+      <item itemvalue="Python.Log" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Log" />
         <item itemvalue="Python.BaseHttp" />
         <item itemvalue="Python.ReadConfig" />
         <item itemvalue="Python.Base" />
@@ -352,10 +354,10 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18758257" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13738441" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2642008" side_tool="true" visible="true" weight="0.41713482" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7357992" weight="0.41713482" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2648613" side_tool="true" visible="true" weight="0.38061798" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7351387" weight="0.41713482" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -387,17 +389,17 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestCase/testdemo.py">
+    <entry file="file://$PROJECT_DIR$/common/testlog.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="19">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="13" selection-start-line="21" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="1178">
+          <caret line="65" column="39" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -435,9 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
           <caret line="72" column="194" selection-start-line="72" selection-start-column="194" selection-end-line="72" selection-end-column="194" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,9 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="988">
           <caret line="52" column="28" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,9 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
           <caret line="84" column="3" lean-forward="true" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -670,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="13" selection-start-line="21" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/contextlib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -719,53 +705,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/Base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/CommonSql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/Log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/BaseHttp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/testlog.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/suite.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
@@ -802,8 +738,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/testdemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="950">
           <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="13" selection-start-line="21" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/testlog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CommonSql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
