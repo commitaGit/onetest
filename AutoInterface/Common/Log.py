@@ -13,20 +13,21 @@ def golog(func):
 class log:
     #初始化日志
     def __init__(self,name):
-        path = os.path.split(__file__)[0]
-        filepath = os.path.join(path,'testlog.txt')
+        path=os.path.pardir
+        filepath = os.path.join(path,'Log','AutoInterfacelog.log')
         self.logger=logging.getLogger(name) #'AutoInterface Log'
         self.logger.setLevel(logging.INFO)
         filehander = logging.FileHandler(filepath,encoding='UTF-8')
         systemhander = logging.StreamHandler()
         fileformatter=logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(filename)s - %(funcName)s - %(message)s')
         filehander.setFormatter(fileformatter)
+        systemhander.setFormatter(fileformatter)
         self.logger.addHandler(systemhander)
         self.logger.addHandler(filehander)
 
 
     #获取实体
-    @golog
+    # @golog
     def get_logger(self):
         return self.logger
 

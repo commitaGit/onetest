@@ -1,7 +1,11 @@
+from AutoInterface.Config import ReadConfig
 import pymysql
-import ReadConfig
+
+from AutoInterface.Common import Log
+
 
 class Rwdatabase:
+
     global host, user, password, port, db, config
     readconfig = ReadConfig.readconfig()
     host = readconfig.get_DATABASE("host")
@@ -16,8 +20,9 @@ class Rwdatabase:
         'password': password,
         'db': db
     }
+    #实例初始化
     def __init__(self):
-
+        self.logger = Log.log('sql_log').logger
         # self.db = readconfig.get_DATABASE("database")
         self.connect=None #pymysql.connect(**config)
         self.cursor=None #self.connect.cursor(pymysql.cursors.DictCursor)
@@ -25,8 +30,9 @@ class Rwdatabase:
 
 
 
-#设置连接的database
-    def set_db(self,database='see'):
+
+#设置连接的database库
+    def set_db(self,database='tmc_services'):
         db = database
 #连接DB
     def connection_db(self):
@@ -34,7 +40,7 @@ class Rwdatabase:
             self.connect = pymysql.connect(**config)
             self.cursor = self.connect.cursor(pymysql.cursors.DictCursor)
         except ConnectionError:
-            print("数据库连接错误")
+            self.logger.error("数据库连接失败")
 
 
 #执行sql
@@ -47,13 +53,14 @@ class Rwdatabase:
 
 
 #返回全部数据
-    def get_all(self,cursor):
-        result =cursor.fetchall()
+    def get_all(self):
+        result=self.cursor.fetchall()
         return  result
 
-#返回单条数据
-    def get_one(self,cursor):
-        result = cursor.fetchone()
+#返回单条数据 //TODO 指定返回
+    def get_one(self):
+        result=self.cursor.fetchone()
+        return result
 
 #关闭DB
     def colse_db(self):
@@ -63,8 +70,7 @@ class Rwdatabase:
 
 if __name__ == "__main__":
     con =Rwdatabase()
-    con_db = con.exe_sql('select * from see_coupon limit 1')
-    # con.connection_db()
-    sul=con.get_all()
+    con_db = con.exe_sql('select * from train_task')
+    sul=con.get_one()
     print(con_db)
     print(sul)
