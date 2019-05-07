@@ -46,6 +46,6 @@ if __name__ == '__main__':
     r=readconfig()
     # r.set_Header('MANAGER_TOKEN','QWK7uq5BvQKGIy55KFSbeAv77J1b4xN38lpzPEXf2eYaLq7RHVDH6p%2BLozOZ9O%2BROfDk0MV%2FBcxOkd1Iq1%2BBCALPp7EhXlRT6LM6avtf1EVIRkMq3%2F9tR9FMVqSuSMcQ')
     # name=r.get_Header('MANAGER_TOKEN')
-    name=r.get_URL('port')
+    name=r.get_URL('timeout')
     #
     print(name)
