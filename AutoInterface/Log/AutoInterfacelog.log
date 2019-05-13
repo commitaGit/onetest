@@ -1,4 +1,0 @@
-2019-04-29 16:44:19,162 - 999 - INFO - Log.py - <module> - 这是我的一个日志测试
-2019-04-30 16:42:29,339 - excel_log - ERROR - CommonData.py - __init__ - 没有用例Excel，请创建并确认有数据
-2019-04-30 16:44:51,301 - excel_log - ERROR - CommonData.py - __init__ - 没有用例Excel，请创建并确认有数据
-2019-04-30 16:45:52,496 - excel_log - ERROR - CommonData.py - __init__ - 没有用例Excel，请创建并确认有数据

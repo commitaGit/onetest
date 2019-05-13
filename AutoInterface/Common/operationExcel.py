@@ -14,7 +14,7 @@ class operationExcel:
         self.logger = Log.log('excel_log').logger
         # dirpath = os.path.split(__file__)[0]
         dirpath=os.path.pardir
-        path = os.path.join(dirpath, 'TestFile','testdata.xlsx')
+        path = os.path.join(dirpath, 'TestFile','interface_data.xlsx')
         if not os.path.exists(path):
             self.logger.error("没有用例Excel，请创建并确认有数据")
         else:

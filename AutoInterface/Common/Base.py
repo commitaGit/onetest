@@ -1,6 +1,8 @@
 # import ReadConfig
+from AutoInterface.Utils import JsonUtil
 from AutoInterface.Common import BaseHttp,Log
 from AutoInterface.Config import ReadConfig
+import json
 
 '''基本请求，登录登出'''
 
@@ -11,8 +13,8 @@ class Base:
         self.readconfig= ReadConfig.readconfig()
 
     def login(self):
-        data = {"identity":"10001","password":"d16caebd-eda8-4ab3-accb-2a0b1dc89c14","clientType":"Admin"}
-
+        data = JsonUtil.OperetionJson().get_data('login')
+        # data = {"identity":"10001","password":"d16caebd-eda8-4ab3-accb-2a0b1dc89c14","clientType":"Admin"
         self.basehttp.set_url('/v1/staff/login')
         self.basehttp.set_headers({'Content-Type':'application/json'})
         self.basehttp.set_data(data)
@@ -31,5 +33,14 @@ class Base:
 
 
 if __name__ == '__main__':
+
     re=Base()
-    print(re.login().text)
+    str = re.login()
+    print(str)
+    if str!=None:
+        print(str.status_code)
+        print(json.dumps(str.json(),sort_keys=True,indent=2))
+        print(type(str))
+    else:
+        # print(str.status_code)
+        print("测试失败")

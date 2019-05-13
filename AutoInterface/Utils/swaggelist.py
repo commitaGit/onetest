@@ -9,7 +9,7 @@ import json
 class swagerlist:
     #获取swagger全部接口
     def get_swagger(self):
-        i=0         #统计接口数量
+        i=0         #全量统计接口数量
         response = requests.get('https://dev-tmc-services.teyixing.com/v2/api-docs')
         result=jsonpath.jsonpath(response.json(),'$.paths')     #获取paths下所有接口路径，返回为list
         for z in result:
