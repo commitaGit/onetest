@@ -6,7 +6,7 @@ import operator
 
 class StrUtil:
 
-    def is_contain(self, str_one, str_two):
+    def is_contain(str_one, str_two):
         '''
         		判断一个字符串是否再另外一个字符串中
         		str_one:查找的字符串
@@ -32,3 +32,9 @@ class StrUtil:
         if isinstance(dict_two, str):
             dict_two = json.loads(dict_two)
         return operator.eq(dict_one, dict_two)
+
+if __name__=='__main__':
+    equal_result=StrUtil().is_equal_dict({'aaa':'apppaa'},{'aaa':'aaaa'})
+    print(equal_result)
+    equal_result_str=StrUtil.is_contain('pppp','pppp')
+    print(equal_result_str)

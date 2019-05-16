@@ -7132,60 +7132,35 @@
     "testResult": [
         {
             "className": "log_user",
-            "methodName": "test_log",
-            "description": "\n        这是失败的用例\n        :return:\n        ",
-            "spendTime": "0.235 s",
+            "methodName": "test_get",
+            "description": "后台管理员获取菜单权限",
+            "spendTime": "0.00103 s",
             "status": "成功",
             "log": [
-                "2019-05-13 13:53:40,966 - https - INFO - BaseHttp.py - set_url - 当前访问的地址为:https://test-staff-api-gateway-train.teyixing.com/v1/staff/login",
+                ""
+            ]
+        },
+        {
+            "className": "log_user",
+            "methodName": "test_getuser",
+            "description": "测试登录后用户为后台管理员",
+            "spendTime": "0.371 s",
+            "status": "成功",
+            "log": [
+                "2019-05-16 14:02:36,866 - https - INFO - BaseHttp.py - set_url - 当前访问的地址为:https://test-staff-api-gateway-train.teyixing.com/v1/staff/login",
                 "C:\\Users\\WGX\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\urllib3\\connectionpool.py:847: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings",
                 "  InsecureRequestWarning)",
-                "2019-05-13 13:53:41,199 - https - INFO - BaseHttp.py - http_post - post请求返回数据:{\"message\":\"OK\",\"code\":0,\"data\":{\"token\":\"33012012-4329-4758-8131-35dc784c1b2f\",\"staff\":{\"id\":10001,\"name\":\"后台管理员\",\"workNo\":\"10001\",\"email\":\"it@tehang.com\",\"mobile\":\"18038155378\",\"tel\":\"0755-88889999\",\"onDuty\":true,\"enabled\":true,\"createTime\":\"2019-01-27T09:00:00.000Z\",\"updateTime\":\"2019-03-29T10:04:32.619Z\"}}}",
+                "2019-05-16 14:02:37,233 - https - INFO - BaseHttp.py - http_post - post请求返回数据:{\"message\":\"OK\",\"code\":0,\"data\":{\"token\":\"9ce9d46f-e1f9-490a-8c12-7f3570586a94\",\"staff\":{\"id\":10001,\"name\":\"后台管理员\",\"workNo\":\"10001\",\"email\":\"it@tehang.com\",\"mobile\":\"18038155378\",\"tel\":\"0755-88889999\",\"onDuty\":true,\"enabled\":true,\"createTime\":\"2019-01-27T09:00:00.000Z\",\"updateTime\":\"2019-03-29T10:04:32.619Z\"}}}",
                 ""
-            ]
-        },
-        {
-            "className": "testdemo",
-            "methodName": "test_equal",
-            "description": null,
-            "spendTime": "1.0 s",
-            "status": "成功",
-            "log": [
-                ""
-            ]
-        },
-        {
-            "className": "testdemo",
-            "methodName": "test_faile",
-            "description": null,
-            "spendTime": "0.000819 s",
-            "status": "失败",
-            "log": [
-                "",
-                "Traceback (most recent call last):\n",
-                "  File \"C:\\Users\\WGX\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
-                "  File \"C:\\Users\\WGX\\AppData\\Local\\Programs\\Python\\Python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
-                "  File \"E:\\autoInterface\\AutoInterface\\TestCase\\testdemo.py\", line 45, in test_faile\n    assert  2==1\n",
-                "AssertionError\n"
-            ]
-        },
-        {
-            "className": "testdemo",
-            "methodName": "test_faile2",
-            "description": null,
-            "spendTime": "0.0 s",
-            "status": "跳过",
-            "log": [
-                "暂不测试"
             ]
         }
     ],
     "testName": "特航接口自动化测试报告",
-    "testAll": 4,
-    "testFail": 1,
-    "beginTime": "2019-05-13 13:53:40",
-    "totalTime": "2s",
-    "testSkip": 1,
+    "testAll": 2,
+    "testFail": 0,
+    "beginTime": "2019-05-16 14:02:36",
+    "totalTime": "1s",
+    "testSkip": 0,
     "testError": 0
 };
 
