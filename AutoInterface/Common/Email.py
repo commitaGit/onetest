@@ -64,7 +64,7 @@ class send_email:
         try:
             server = smtplib.SMTP()
             # server = smtplib.SMTP_SSL()
-            server.set_debuglevel(1)
+            # server.set_debuglevel(1)   #打印发送邮箱日志
             server.connect(email_host,port=25)
             server.login(send_user, password)
             server.sendmail(user, user_list.split(','), message.as_string())

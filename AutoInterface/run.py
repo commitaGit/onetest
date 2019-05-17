@@ -1,6 +1,10 @@
 # import sys
 # sys.path.append('E:/autoInterface/AutoInterface')
+import sys
 import os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
 import unittest
 import time
 from BeautifulReport import BeautifulReport

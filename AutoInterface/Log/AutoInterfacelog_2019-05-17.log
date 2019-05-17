@@ -1,0 +1,16 @@
+2019-05-17 11:01:30,952 - https - INFO - BaseHttp.py - set_url - 当前访问的地址为:https://test-staff-api-gateway-train.teyixing.com/v1/staff/login
+2019-05-17 11:01:38,479 - https - INFO - BaseHttp.py - http_post - post请求返回数据:{"message":"OK","code":0,"data":{"token":"e97302b6-8102-4724-9275-03219c55ee13","staff":{"id":10001,"name":"后台管理员","workNo":"10001","email":"it@tehang.com","mobile":"18038155378","tel":"0755-88889999","onDuty":true,"enabled":true,"createTime":"2019-01-27T09:00:00.000Z","updateTime":"2019-03-29T10:04:32.619Z"}}}
+2019-05-17 11:01:38,511 - run_main - INFO - run.py - run_test - ================运行完成，请查看结果===============
+2019-05-17 11:03:44,328 - https - INFO - BaseHttp.py - set_url - 当前访问的地址为:https://test-staff-api-gateway-train.teyixing.com/v1/staff/login
+2019-05-17 11:03:45,108 - https - INFO - BaseHttp.py - http_post - post请求返回数据:{"message":"OK","code":0,"data":{"token":"839d07c0-8bc2-4fac-b3c8-2d8f8c5964e3","staff":{"id":10001,"name":"后台管理员","workNo":"10001","email":"it@tehang.com","mobile":"18038155378","tel":"0755-88889999","onDuty":true,"enabled":true,"createTime":"2019-01-27T09:00:00.000Z","updateTime":"2019-03-29T10:04:32.619Z"}}}
+2019-05-17 11:03:45,138 - run_main - INFO - run.py - run_test - ================运行完成，请查看结果===============
+2019-05-17 19:42:37,070 - LOG运行main方法 - INFO - Log.py - <module> - 这是我的一个日志测试
+2019-05-17 19:43:45,080 - LOG运行main方法 - INFO - Log.py - <module> - 这是我的一个日志测试
+2019-05-17 19:44:57,256 - https - INFO - BaseHttp.py - set_url - 当前访问的地址为:https://test-staff-api-gateway-train.teyixing.com/v1/staff/login
+2019-05-17 19:45:01,993 - https - INFO - BaseHttp.py - http_post - post请求返回数据:{"message":"OK","code":0,"data":{"token":"77ad4b78-a7f7-44cf-85dc-dcd1889fe095","staff":{"id":10001,"name":"后台管理员","workNo":"10001","email":"it@tehang.com","mobile":"18038155378","tel":"0755-88889999","onDuty":true,"enabled":true,"createTime":"2019-01-27T09:00:00.000Z","updateTime":"2019-03-29T10:04:32.619Z"}}}
+2019-05-17 19:45:02,013 - run_main - INFO - run.py - run_test - ================运行完成，请查看结果===============
+2019-05-17 19:46:20,161 - excel_log - ERROR - operationExcel.py - __init__ - 没有用例Excel，请创建并确认有数据
+2019-05-17 19:48:03,459 - excel_log - ERROR - operationExcel.py - __init__ - 没有用例Excel，请创建并确认有数据
+2019-05-17 20:07:09,879 - excel_log - ERROR - operationExcel.py - __init__ - 没有用例Excel，请创建并确认有数据
+2019-05-17 20:08:29,777 - excel_log - ERROR - operationExcel.py - __init__ - 没有用例Excel，请创建并确认有数据
+2019-05-17 20:08:50,114 - excel_log - ERROR - operationExcel.py - __init__ - 没有用例Excel，请创建并确认有数据

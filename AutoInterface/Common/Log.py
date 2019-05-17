@@ -18,10 +18,10 @@ class log:
     def __init__(self,name=None):
         now_time = time.strftime("%Y-%m-%d", time.localtime())
         path = os.path.abspath(os.path.dirname(os.getcwd())) #返回上级目录
-        filepath = os.path.join(path,'AutoInterface','Log','AutoInterfacelog_%s.log' %(now_time))
+        self.filepath = os.path.join(path,'Log','AutoInterfacelog_%s.log' %(now_time))
         self.logger=logging.getLogger(name) #'AutoInterface Log'
         self.logger.setLevel(logging.INFO)
-        filehander = logging.FileHandler(filepath,encoding='UTF-8')
+        filehander = logging.FileHandler(self.filepath,encoding='UTF-8')
         systemhander = logging.StreamHandler()
         fileformatter=logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(filename)s - %(funcName)s - %(message)s')
         filehander.setFormatter(fileformatter)
@@ -40,14 +40,8 @@ class log:
 
 
 if __name__ == '__main__':
-    # f=log('LOG运行main方法')
-    # f.get_logger().info(u'这是我的一个日志测试')
+    f=log('LOG运行main方法')
+    f.get_logger().info(u'这是我的一个日志测试')
     #E:\autoInterface\AutoInterface\Log\AutoInterfacelog_2019-05-16.log
 #E:\\autoInterface\\Log\\AutoInterfacelog_2019-05-16.log'
     #E:\autoInterface\AutoInterface\Log\AutoInterfacelog_2019-05-16.log
-    #
-    now_time = time.strftime("%Y-%m-%d", time.localtime())
-    jjj = os.path.abspath(os.path.dirname(os.getcwd()))  # 返回上级目录
-    ppp = os.path.join(jjj,'AutoInterface', 'Log', 'AutoInterfacelog_%s.log' % (now_time))
-    # print(path)
-    print(ppp)

@@ -1,0 +1,37 @@
+{
+	"with_valid_user": {
+		"Id": 1,
+		"casename": "测试登录",
+		"url": "/path/childpath",
+		"run": "是",
+		"request_way": "POST",
+		"header": "cookie",
+		"case_depend": "1",
+		"data_depend": "filed",
+		"result": "sdasdasdasda",
+		"data": {
+			"username": "19944444444",
+			"password": "tehang666"
+		},
+		"expect_result": ""
+
+	},
+	"with_valid_user2": {
+		"Id": 2,
+		"casename": "测试登录",
+		"url": "/path/childpath",
+		"run": "是",
+		"request_way": "POST",
+		"header": "cookie",
+		"case_depend": "1",
+		"data_depend": "filed",
+		"result": "sdasdasdasda",
+		"data": {
+			"username": "19944444444",
+			"password": "tehang666"
+		},
+		"expect_result": ""
+
+	}
+
+}
