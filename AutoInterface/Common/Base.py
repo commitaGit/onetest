@@ -24,14 +24,6 @@ class Base:
         # print(MANAGER_TOKEN)
         # self.readconfig.set_Header('manager_token',MANAGER_TOKEN)
 
-#登出接口调用 //tehang没有logout
-    def logout(self):
-        self.basehttp.set_url('/api/auth/logout')
-        response = self.basehttp.http_get()
-        return response
-        #print(response.text)
-
-
 if __name__ == '__main__':
 
     re=Base()

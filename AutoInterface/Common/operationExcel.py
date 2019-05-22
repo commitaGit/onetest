@@ -69,9 +69,16 @@ class operationExcel:
         shelldata=self.rwexcel.sheet_by_index(self.index)
 
 
-#TODO:根据对应的caseid找到对应的行号
-    def get_caseid_row(self):
-        pass
+#T根据对应的caseid找到对应的行号
+    def get_caseid_row(self,caseid,col):
+        i=0
+        shelldata = self.rwexcel.sheet_by_index(self.index)
+        str = self.get_col_data(col)
+        for s in str:
+            if s==caseid:
+                return i
+            else:
+                i = i+1
 
 #TODO:根据对应的caseid找到对应行内容
     def get_caseid_row_data(self):
@@ -79,7 +86,7 @@ class operationExcel:
 
 
 
-#TODO:获取shell表总行数
+#获取shell表总行数
     def get_shell_nrow(self):
         shelldata = self.rwexcel.sheet_by_index(self.index)
         countrows = shelldata.nrows
@@ -87,6 +94,6 @@ class operationExcel:
 
 
 if __name__ == '__main__':
-    rt = operationExcel().get_shell_nrow()
+    rt = operationExcel().get_caseid_row(88,0)
     print(rt)
 
