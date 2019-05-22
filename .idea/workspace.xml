@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97252635-f4aa-4f68-a812-0c480947cac5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoInterface/README.md" afterDir="false" />
+    <list default="true" id="97252635-f4aa-4f68-a812-0c480947cac5" name="Default Changelist" comment="//新增README.md">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoInterface/Common/Base.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoInterface/Common/Base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoInterface/Common/operationExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoInterface/Common/operationExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoInterface/Report/自动化测试报告2019-05-14_16-00-08.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoInterface/Report/自动化测试报告2019-05-14_16-00-09.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoInterface/Report/自动化测试报告2019-05-14_17-54-39.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoInterface/Report/自动化测试报告2019-05-16_11-16-26.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoInterface/Report/自动化测试报告2019-05-16_11-17-16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoInterface/Report/自动化测试报告2019-05-16_11-17-41.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoInterface/Report/自动化测试报告2019-05-16_11-20-30.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoInterface/Report/自动化测试报告2019-05-16_11-47-50.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoInterface/Report/自动化测试报告2019-05-16_14-02-36.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoInterface/TestFile/interface_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/AutoInterface/TestFile/interface_data.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,30 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutoInterface/Common/Log.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutoInterface/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-              <folding>
-                <element signature="e#65#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/BeautifulReport/BeautifulReport.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,12 +49,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AutoInterface/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <first_editor relative-caret-position="228">
+                <caret line="12" selection-start-line="12" selection-end-line="12" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -101,10 +63,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AutoInterface/TestCase/test_user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="95">
               <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="49" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -134,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AutoInterface/Utils/JsonPathUtil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="190">
               <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
@@ -231,14 +202,15 @@
         <option value="$PROJECT_DIR$/AutoInterface/Common/operationExcel.py" />
         <option value="$PROJECT_DIR$/AutoInterface/Common/Base.py" />
         <option value="$PROJECT_DIR$/AutoInterface/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="69" />
-    <option name="y" value="112" />
-    <option name="width" value="1735" />
-    <option name="height" value="935" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="247" />
+    <option name="y" value="177" />
+    <option name="width" value="1613" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -261,31 +233,14 @@
               <item name="autoInterface" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoInterface" type="462c0819:PsiDirectoryNode" />
               <item name="AutoInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="autoInterface" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoInterface" type="462c0819:PsiDirectoryNode" />
               <item name="AutoInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="Config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autoInterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autoInterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autoInterface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="inspectionProfiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="autoInterface" type="b2602c69:ProjectViewProjectNode" />
@@ -515,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558099000759</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="//新增README.md">
+      <created>1558527076640</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558527076640</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -560,10 +522,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="247" y="177" width="1613" height="995" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.18651211" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.47619048" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.18651211" />
       <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.18651211" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -648,21 +610,10 @@
     <MESSAGE value="//加入BeautifulReport测试报告及部分工具类" />
     <MESSAGE value="//修改file文件目录问题，join会去掉带&quot;/&quot;的路径" />
     <MESSAGE value="//1\数据维护方式：1、excel  2、json  3、yaml   4、数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="//1\数据维护方式：1、excel  2、json  3、yaml   4、数据库" />
+    <MESSAGE value="//新增README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="//新增README.md" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/新建文件夹/p22naf/util/send_email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/新建文件夹/p22naf/base/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15135" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/jsonpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -941,36 +892,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutoInterface/Utils/login_user.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/BeautifulReport/BeautifulReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="148" column="53" selection-start-line="148" selection-start-column="53" selection-end-line="148" selection-end-column="53" />
-          <folding>
-            <element signature="e#124#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoInterface/Utils/swaggelist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/AutoInterface/Common/https.pem">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoInterface/Common/Log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="380">
           <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -988,15 +915,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutoInterface/Config/ReadConfig.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/BeautifulReport/BeautifulReport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="7" selection-end-column="19" />
+        <state relative-caret-position="2622">
+          <caret line="148" column="53" selection-start-line="148" selection-start-column="53" selection-end-line="148" selection-end-column="53" />
+          <folding>
+            <element signature="e#124#133#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoInterface/Common/https.pem">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoInterface/Common/Base.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1005,9 +932,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AutoInterface/Utils/swaggelist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoInterface/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AutoInterface/TestCase/test_user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="95">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="49" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -1015,9 +969,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AutoInterface/Config/ReadConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoInterface/Utils/login_user.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AutoInterface/Utils/JsonPathUtil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="190">
           <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
@@ -1025,20 +993,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutoInterface/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/AutoInterface/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
       </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
