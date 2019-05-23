@@ -1,6 +1,6 @@
 2019-05-13 09:52:43,978 - 999 - INFO - Log.py - <module> - 这是我的一个日志测试
 2019-05-13 09:52:53,578 - https - INFO - BaseHttp.py - set_url - 当前访问的地址为:https://test-staff-api-gateway-train.teyixing.com/v1/staff/login
-2019-05-13 09:53:37,082 - LOG运行main方法 - INFO - Log.py - <module> - 这是我的一个日志测试
+2019-05-13 09:53:37,082 - LOG运行main方法 - INFO - Log.py - <module> - 1
 2019-05-13 09:53:42,322 - https - INFO - BaseHttp.py - set_url - 当前访问的地址为:https://test-staff-api-gateway-train.teyixing.com/v1/staff/login
 2019-05-13 09:57:26,665 - https - INFO - BaseHttp.py - set_url - 当前访问的地址为:https://test-staff-api-gateway-train.teyixing.com/v1/staff/login
 2019-05-13 09:57:57,978 - https - INFO - BaseHttp.py - set_url - 当前访问的地址为:https://test-staff-api-gateway-train.teyixing.com/v1/staff/login
