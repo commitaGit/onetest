@@ -17,7 +17,7 @@ class log:
 
     def __init__(self,name=None):
         now_time = time.strftime("%Y-%m-%d", time.localtime())
-        path = os.path.abspath(os.path.dirname(os.getcwd())) #返回上级目录
+        path = os.path.abspath(os.path.dirname(os.getcwd())) #返回上级目录 #TODO:使用切片有问题
         self.filepath = os.path.join(path,'Log','AutoInterfacelog_%s.log' %(now_time))
         self.logger=logging.getLogger(name) #'AutoInterface Log'
         self.logger.setLevel(logging.INFO)
